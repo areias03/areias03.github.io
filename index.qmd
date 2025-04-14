@@ -1,0 +1,59 @@
+---
+title: "Alexandre Areias Castro"
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/alexandre-castro-24b9b71b0/
+        - icon: twitter-x
+          text: X
+          url: https://twitter.com/alex_areiasc
+        - icon: github
+          text: Github
+          url: https://github.com/areias03
+        - icon: envelope-fill
+          text: Email
+          url: mailto:alexandreareiascastro+site@gmail.com
+image: img/DAE99493-4DFD-4032-924A-D1B1B1E32ED7_1_105_c.jpeg
+comments: false
+---
+
+## Bio
+
+I'm a PhD Student at the Centre for Microbiome Research in Brisbane, Australia.
+I have an enormous passion for biology and informatics, which allows me to
+create a perfect balance and explore the maximum of my capabilities, while doing
+two things I have an tremendous interest in. Trying to keep on learning and
+improving is one of my personal mottoes, in the endless journey of creating a
+wiser and better version of myself.
+
+<!-- On this site I keep a list of my projects, as well as my CV and a technical and personal [blog](blog). -->
+On this site I keep my CV and a blog. If you want to check out my work, you can take a look at my [GitHub](https://www.github.com/areias03) profile.
+
+## Research Interests
+
+- **Systems Biology:** metabolic engineering, community modelling, computational dynamics of complex systems and simulating interactions
+- **Microbiology:** how small life forms can produce outcomes with higher orders of impact in ecosystems, with special focus in human health
+- **Metabolomics:** linking genotype, phenotype and metabolic activity to overall function in small and large-scale biological systems
+- **Machine-Learning:** data-driven predictions for behaviour, role categorization and designing models with applications in medicine
+
+## Background
+
+### Academic
+
+- **Bachelor of Science in Applied Biology**\
+Universidade do Minho, 2018-2021
+
+- **Master of Science in Bioinformatics**\
+Universidade do Minho, 2021-2024 
+
+- **PhD Candidate**\
+Queensland University of Technology, since 2024
+
+### Professional
+
+- **Application Security Researcher**\
+Checkmarx Ltd, 2021-2023
+- **Bioinformatician, PhD Candidate**\
+Centre for Microbiome Research/Big Data Biology Lab - QUT, since 2024
