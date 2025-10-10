@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.33">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,10 +34,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9cca2f5e8ac7dfc1cdfee4de33c7de70.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7ad6542725e80d1433b1f8ee26c2a1fc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -110,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
   <ul>
-  <li><a href="#bio" id="toc-bio" class="nav-link active" data-scroll-target="#bio">Bio</a></li>
+  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a></li>
   <li><a href="#research-interests" id="toc-research-interests" class="nav-link" data-scroll-target="#research-interests">Research Interests</a></li>
   <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a>
   <ul class="collapse">
@@ -153,19 +153,17 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="about-contents"><main class="content" id="quarto-document-content">
 
-<section id="bio" class="level2">
-<h2 data-anchor-id="bio">Bio</h2>
-<p>I’m a PhD Student at the Centre for Microbiome Research in Brisbane, Australia. I have an enormous passion for biology and informatics, which allows me to create a perfect balance and explore the maximum of my capabilities, while doing two things I have an tremendous interest in. Trying to keep on learning and improving is one of my personal mottoes, in the endless journey of creating a wiser and better version of myself.</p>
-<!-- On this site I keep a list of my projects, as well as my CV and a technical and personal [blog](blog). -->
-<p>On this site I keep my CV and a blog. If you want to check out my work, you can take a look at my <a href="https://www.github.com/areias03">GitHub</a> profile.</p>
+<section id="about-me" class="level2">
+<h2 data-anchor-id="about-me">About Me</h2>
+<p>I am currently a PhD student at the Centre for Microbiome Research in Brisbane, Australia. My academic journey lies at the intersection of biology and informatics, where I aim to integrate experimental and computational approaches to better understand complex biological systems. This interdisciplinary focus allows me to pursue both scientific curiosity and technical innovation in equal measure. I’m driven by a deep commitment to continuous learning and personal development, and I see research as a lifelong process of asking better questions and building more insightful models of the world around us. This website hosts my CV and a blog, where I occasionally share thoughts on research, tools, and ideas I find interesting. You can also explore some of my code and collaborative projects on my <a href="https://www.github.com/areias03">GitHub</a> profile.</p>
 </section>
 <section id="research-interests" class="level2">
 <h2 data-anchor-id="research-interests">Research Interests</h2>
 <ul>
-<li><strong>Systems Biology:</strong> metabolic engineering, community modelling, computational dynamics of complex systems and simulating interactions</li>
-<li><strong>Microbiology:</strong> how small life forms can produce outcomes with higher orders of impact in ecosystems, with special focus in human health</li>
-<li><strong>Metabolomics:</strong> linking genotype, phenotype and metabolic activity to overall function in small and large-scale biological systems</li>
-<li><strong>Machine-Learning:</strong> data-driven predictions for behaviour, role categorization and designing models with applications in medicine</li>
+<li><p><strong>Systems Biology:</strong> Metabolic engineering, community modeling, and the computational simulation of biological interactions and dynamics.</p></li>
+<li><p><strong>Microbiology:</strong> Investigating how microorganisms drive large-scale ecological and health-related outcomes, with a particular focus on the human microbiome.</p></li>
+<li><p><strong>Metabolomics:</strong> Exploring the relationships between genotype, phenotype, and metabolic activity to understand functional outputs at multiple biological scales.</p></li>
+<li><p><strong>Machine Learning:</strong> Developing and applying data-driven models for behavior prediction, functional classification, and clinical or biotechnological applications.</p></li>
 </ul>
 </section>
 <section id="background" class="level2">
@@ -271,8 +269,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -383,7 +379,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
